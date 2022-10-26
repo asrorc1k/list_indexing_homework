@@ -6,4 +6,4 @@ def main(list1):
     Returns:
         bool: return answer
     """
-    return
+    return  list1[-1]
