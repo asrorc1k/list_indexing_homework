@@ -6,6 +6,11 @@ def main(list1):
     Returns:
         list: return answer
     """
-    st1 =list1[-1::-1]
-
-    return list1[::n]
+    i=0
+    while i < len(list1):
+        if list1[i]==0:
+            list1[i]=False
+        i+=1
+        
+    return list1
+print(main([1, 0, 0, 0, 0]))
